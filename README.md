@@ -39,7 +39,7 @@ You can also pass your Treblle API key and project ID to the Treblle constructor
 from treblle_flask import Treblle
 
 app = Flask(__name__)
-Treblle(app, TREBLLE_API_KEY="YOUR_API_KEY", TREBLLE_PROJECT_ID="https://api.treblle.com")
+Treblle(app, TREBLLE_API_KEY="YOUR_API_KEY", TREBLLE_PROJECT_ID="YOUR_PROJECT_ID")
 
 @app.route('/hello')
 def hello():
