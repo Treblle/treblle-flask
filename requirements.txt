@@ -1,2 +1,2 @@
 Flask>=0.9
-requests>=2.0.0
+aiohttp>=1.0
